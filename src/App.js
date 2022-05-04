@@ -213,7 +213,7 @@ function App() {
         }}
       >
         {error.length > 0 && < div className='row Error'> <strong >ERROR :  </strong> {error}</div>}
-        <div className='row'> <strong>Total data :  </strong> {size}</div>
+        <div className='row'> <strong>Total Data :  </strong> {size}</div>
         <div className='row' > <strong>Main Strike Price :  </strong>{mainStrikePrice}</div>
         <div className='row' ><strong>Updated at :  </strong>{new Date().toLocaleString('en-us')
         }</div>
