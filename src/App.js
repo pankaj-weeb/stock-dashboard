@@ -144,7 +144,7 @@ function App() {
           'Content-Type': 'application/json',
           'Bypass-Tunnel-Reminder': 'data'
         }
-        const result = await axios.get("https://solid-cars-look-106-223-7-6.loca.lt/api", {
+        const result = await axios.get("https://8893-2401-4900-2e90-8d0-98c9-ee94-631e-5ef.in.ngrok.io/api", {
           headers: header
         });
         if (result.data) {
